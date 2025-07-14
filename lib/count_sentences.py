@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
 
 class MyString:
-  pass
+    def __init__(self , value =" "):
+        self.value = value
